@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Voyager
+
+Voyager is a trip planning app that helps keep track of itineraries, excursions, budget and expenses for your trip.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
