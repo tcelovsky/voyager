@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 import { Route, Switch, Link } from "react-router-dom";
+import { fb } from "./lib/firebase";
 
 function App() {
   return (
