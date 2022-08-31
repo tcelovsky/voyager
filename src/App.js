@@ -1,14 +1,19 @@
 import "./App.css";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Switch, Link } from "react-router-dom";
-import { fb } from "./lib/firebase";
-import firebase from "firebase/app";
-import "firebase/firestore";
-import { getDatabase } from "firebase/database";
+import { db } from "./lib/firebase";
+import { doc, onSnapshot } from "firebase/firestore";
 import NewTrip from "./components/newTrip";
 
 function App() {
-  const db = getDatabase();
+  useEffect(() => {
+    let isMounted = true;
+    if (isMounted) {
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   return (
     <div className="App">
