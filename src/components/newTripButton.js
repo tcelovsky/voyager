@@ -3,9 +3,19 @@ import Button from "react-bootstrap/Button";
 import "../css/button.css";
 
 const NewTripButton = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log("clicked");
+  };
+
   return (
     <div className="button">
-      <Button type="submit" variant="outline-secondary" size="sm">
+      <Button
+        type="submit"
+        variant="outline-secondary"
+        size="sm"
+        onClick={handleClick}
+      >
         New Trip
       </Button>
     </div>
