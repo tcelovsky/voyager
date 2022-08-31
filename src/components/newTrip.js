@@ -21,6 +21,7 @@ const NewTrip = () => {
         New Trip
       </Button>
       <>
+        {/* When New Trip button is clicked, a Modal pops up asking for basic information about the new trip. */}
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Woohoo, let's create your new trip!</Modal.Title>
