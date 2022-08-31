@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">Voyager</header>
       <main>
         {console.log(db)}
-        <NewTripModal></NewTripModal>
+        <NewTrip></NewTrip>
       </main>
     </div>
   );
